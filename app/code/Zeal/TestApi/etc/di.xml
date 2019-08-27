@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+  	<preference for="Zeal\TestApi\Api\TestApiManagementInterface" type="Zeal\TestApi\Model\Api\TestApiManagement" />
+    <preference for="Zeal\TestApi\Api\Data\TestApiInterface" type="Zeal\TestApi\Model\TestApi" />
+
+   <!--  <type name="Magento\Framework\App\RouterList">
+      <arguments>
+          <argument name="routerList" xsi:type="array">
+              <item name="testapi" xsi:type="array">
+                  <item name="class" xsi:type="string">Zeal\TestApi\Controller\Router</item>
+                  <item name="disable" xsi:type="boolean">false</item>
+                  <item name="sortOrder" xsi:type="string">22</item>
+              </item>
+          </argument>
+      </arguments>
+  </type> -->
+</config>
